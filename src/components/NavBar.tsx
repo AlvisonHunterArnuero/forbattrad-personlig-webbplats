@@ -3,10 +3,10 @@ import React from 'react';
 
 const NavBar = () => {
   const navBarItemHoverStatus =
-    'hover:text-sky-600 dark:hover:text-sky-600';
+    'hover:text-sky-600 dark:hover:text-orange-500';
 
   const arrMenuItems = [
-    { href: '/about', innerText: 'About' },
+    { href: '/', innerText: 'About' },
     { href: '/skillset', innerText: 'Skillset' },
     { href: '/portfolio', innerText: 'Portfolio' },
     { href: '/certifications', innerText: 'Certifications' },

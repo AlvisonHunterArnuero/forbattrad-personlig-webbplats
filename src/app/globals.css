@@ -5,3 +5,11 @@
 .custom-navbar-menu-wrapper {
     @apply flex w-screen justify-center items-center gap-3 uppercase;
 }
+
+.custom-btn-cv {
+    @apply btn btn-outline btn-primary font-medium md:font-semibold rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500
+}
+
+.custom-footer-rules {
+    @apply sticky bottom-0 footer footer-center bg-gray-700 text-white p-4
+}
